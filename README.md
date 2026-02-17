@@ -1,27 +1,30 @@
 # Audiovisual Translation Tools
 
-Colección de scripts de automatización (AutoHotkey v2) diseñados para optimizar flujos de trabajo en traducción, subtitulaje y **LQA**.
+A collection of automation scripts and macros (AutoHotkey v2) designed to streamline translation, subtitling, and **LQA** workflows.
 
 ---
 
 ## 1. LQA Multi-Converter (`conversor_de_medidas.ahk`)
-Este script agiliza la conversión de unidades de medida para evitar errores de precisión técnica.
+This script expedites unit conversions to prevent technical precision errors during the localization process.
 
-* **Atajo:** `Ctrl + F8`
-* **Funciones:** Convierte temperatura (°C/°F), distancias (mi/km, ft/m, in/cm) y peso (lb/kg).
-* **Impacto:** Reduce el tiempo de cálculo manual en un **15 %** aproximadamente.
+* **Hotkey:** `Ctrl + F8`
+* **Functions:** Instant conversion for Temperature (°C/°F), Distances (mi/km, ft/m, in/cm), and Weight (lb/kg).
+* **Impact:** Reduces manual calculation time by approximately **15 %**.
 
 ---
 
 ## 2. Character Insertion Macro (`Character_Menu_Macro.ahk`)
-Macro para desplegar un menú contextual con nombres de personajes o términos recurrentes.
+A macro that deploys a contextual menu for quick insertion of character names or recurring terminology.
 
-* **Atajo:** `F8`
-* **Ventajas:** Previene la fatiga mecánica y asegura la consistencia terminológica en proyectos con elencos grandes.
+* **Hotkey:** `F8`
+* **Benefits:** Prevents mechanical fatigue and ensures terminological consistency in projects with large casts or complex glossaries.
 
 ---
 
-## Requisitos e Instalación
-1. Instala [AutoHotkey v2.0+](https://www.autohotkey.com/).
-2. Descarga los archivos `.ahk` de este repositorio.
-3. Ejecuta los scripts con doble clic para activarlos.
+## Installation and Usage
+1.  Install [AutoHotkey v2.0+](https://www.autohotkey.com/).
+2.  Download the `.ahk` files from this repository.
+3.  Run the scripts by double-clicking them.
+
+---
+**Iris Domínguez** - LQA & Audiovisual Translation Specialist.
