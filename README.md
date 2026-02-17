@@ -27,4 +27,12 @@ A macro that deploys a contextual menu for quick insertion of character names or
 3.  Run the scripts by double-clicking them.
 
 ---
+
+## Support this project
+
+If these scripts and macros have streamlined your workflow or saved you time, consider supporting their continued development. Your contribution helps maintain these resources and keeps them open-source for the translation community.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/irisdominguez)
+
+---
 **Iris Domínguez** - LQA & Audiovisual Translation Specialist.
