@@ -1,0 +1,26 @@
+#Requires AutoHotkey v2.0
+
+; Atajo: Ctrl + Shift + U
+^+u::
+{
+    ; Guarda el contenido actual del portapapeles para restaurarlo después
+    OldClipboard := A_Clipboard
+    A_Clipboard := "" 
+    
+    ; Copia el texto seleccionado
+    Send("^c")
+    
+    ; Espera un momento a que el portapapeles reciba el texto
+    if ClipWait(1)
+    {
+        ; Convierte el texto a mayúsculas y lo pega
+        A_Clipboard := StrUpper(A_Clipboard)
+        Send("^v")
+        
+        ; Breve pausa para asegurar que el pegado termine antes de restaurar
+        Sleep(100)
+    }
+    
+    ; Restaura el portapapeles original
+    A_Clipboard := OldClipboard
+}
