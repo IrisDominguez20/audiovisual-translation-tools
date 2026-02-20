@@ -4,7 +4,7 @@ A collection of automation scripts and macros (AutoHotkey v2) designed to stream
 
 ---
 
-## 1. LQA Multi-Converter (`conversor_de_medidas.ahk`)
+## 1. Multi-Converter (`conversor_de_medidas.ahk`)
 This script expedites unit conversions to prevent technical precision errors during the localization process.
 
 * **Hotkey:** `Ctrl + F8`
