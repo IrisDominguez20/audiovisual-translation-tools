@@ -24,9 +24,9 @@ A macro that deploys a contextual menu for quick insertion of character names or
 ## 3. Uppercase Converter (`uppercase_converter.ahk`)
 A quick utility to transform any selected text into uppercase instantly, ideal for character names in scripts or emphasis in technical reports.
 
-Hotkey: Ctrl + Shift + U
+* **Hotkey:** `Ctrl + Shift + U`
 
-Benefit: Eliminates the need to retype text or use external menus, further streamlining the editing phase.
+* **Benefit:** Eliminates the need to retype text or use external menus, further streamlining the editing phase.
 
 ---
 
